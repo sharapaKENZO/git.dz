@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var product = prompt("Product title") || "Product"
+        var year = parseInt(prompt("Year")) || 2017
+        var count = parseInt(prompt("Count"))
+        if (count)
+            // document.write(product + " - " + year + " - " + count)
+          
+            document.write(`${product} - ${ year} - ${ count}`)
+                
+        else 
+            document.write("Error")
+        
+    </script>
+
+</body>
+</html>
