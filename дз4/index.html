@@ -10,7 +10,7 @@
     <script>
         let cinaTov = parseInt(prompt("Ціна товару"))
         let kilkGrosh = parseInt(prompt("Кількість грошей"))
-        let sdacha= (kilkGrosh - 1 -cinaTov) % 4 + 1
+        let sdacha= (kilkGrosh - 1 -cinaTov) % 4 + 1  Тут треба чітко проаналізувати (чи можна купити, і лише коли можна і ще є гроші тоді пропонувати лотерею)
          if (kilkGrosh>cinaTov)
          document.write(`кількість лотерейних білетів які можна купити на здачу = ${sdacha}`)
          else
